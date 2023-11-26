@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF_KnowItAll_App.App_layer.ViewModels;
 
 namespace WPF_KnowItAll_App.UI.Pages
 {
@@ -23,6 +24,14 @@ namespace WPF_KnowItAll_App.UI.Pages
         public RegistrationWindow()
         {
             InitializeComponent();
+        }
+
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            if (DataContext is RegistrationViewModel regVM)
+            {
+                regVM.NewUser.Password = tb_Password.Password;
+            }
         }
     }
 }
