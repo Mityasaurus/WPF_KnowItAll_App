@@ -5,8 +5,34 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_KnowItAll_App.UI.Pages"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="350" d:DesignWidth="600" Background="#141332">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/UI/styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Grid>
-            
+        <StackPanel Width="410" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Welcome back!" Foreground="White" FontSize="25" FontWeight="DemiBold" HorizontalAlignment="Center" Margin="0 10 0 0"/>
+            <TextBlock Text="Email" Foreground="GhostWhite" FontSize="14" Margin="20 20 0 0"></TextBlock>
+            <TextBox Text="{Binding Path=User.Email, UpdateSourceTrigger=PropertyChanged}" Margin="20 7 20 0" Style="{StaticResource TextBoxRegistrationWindow}"/>
+            <TextBlock Text="Password" Foreground="GhostWhite" FontSize="14" Margin="20 20 0 0"></TextBlock>
+            <PasswordBox x:Name="tb_Password" Margin="20 7 20 0" Style="{StaticResource PasswordBoxRegistrationWindow}"
+                         PasswordChanged="PasswordBox_PasswordChanged"/>
+
+            <Border BorderThickness="2" BorderBrush="GhostWhite" CornerRadius="7" Margin="20 15 20 0">
+                <Button Content="Login" Background="Transparent" BorderThickness="0" Foreground="GhostWhite" Command="{Binding LoginCommand}"/>
+            </Border>
+            <StackPanel Orientation="Horizontal" Margin="0 17" HorizontalAlignment="Center">
+                <TextBlock Text="Don`t have an account yet?" Foreground="GhostWhite" FontSize="12" Margin="0 0 5 0"/>
+                <TextBlock FontSize="12" Style="{StaticResource TextBlockLoginRegistrationWindow}">
+                <Hyperlink Foreground="LightSkyBlue" Command="{Binding SwitchToSignUpCommand}">
+                    <TextBlock Text="Sign up"/>
+                </Hyperlink>
+                </TextBlock>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </UserControl>
