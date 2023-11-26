@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WPF_KnowItAll_App.App_layer.Navigator;
+using WPF_KnowItAll_App.UI.Pages;
 
 namespace WPF_KnowItAll_App
 {
@@ -23,6 +13,31 @@ namespace WPF_KnowItAll_App
         public MainWindow()
         {
             InitializeComponent();
+
+            CenterWindowOnScreen();
+
+            NavigatorObject.pageSwitcher = this;
+
+            NavigatorObject.Switch(new RegistrationWindow(), DataContext);
+        }
+
+        public void Navigate(UserControl nextPage, object dataContext)
+        {
+            nextPage.DataContext = dataContext;
+            this.Content = nextPage;
+            this.DataContext = dataContext;
+        }
+
+        private void CenterWindowOnScreen()
+        {
+            double screenWidth = SystemParameters.PrimaryScreenWidth;
+            double screenHeight = SystemParameters.PrimaryScreenHeight;
+
+            double windowWidth = Width;
+            double windowHeight = Height;
+
+            Left = (screenWidth - windowWidth) / 2;
+            Top = (screenHeight - windowHeight) / 2;
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_KnowItAll_App"
         mc:Ignorable="d"
-        Title="KnowItAll" Height="450" Width="800">
+        Title="Know It All" Height="700" Width="1200" MinHeight="700" MaxHeight="700" MinWidth="1200" MaxWidth="1200">
     <Grid>
 
     </Grid>
