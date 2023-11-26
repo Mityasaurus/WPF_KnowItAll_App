@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_KnowItAll_App", "WPF_KnowItAll_App\WPF_KnowItAll_App.csproj", "{6F13AD2F-F71D-4497-B644-52E73EFC68E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_KnowItAll_App", "WPF_KnowItAll_App\WPF_KnowItAll_App.csproj", "{6F13AD2F-F71D-4497-B644-52E73EFC68E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
