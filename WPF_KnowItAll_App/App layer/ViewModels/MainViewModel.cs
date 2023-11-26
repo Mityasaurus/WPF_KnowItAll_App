@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.IO.Packaging;
 using System.Linq;
 using WPF_KnowItAll_App.App_layer.Constants;
 using WPF_KnowItAll_App.App_layer.Navigator;
@@ -84,7 +86,13 @@ namespace WPF_KnowItAll_App.App_layer.ViewModels
             User = user;
             try
             {
-                Quizzes = JsonService.Load<ObservableCollection<Quiz>>(Filenames.QuizzesFilename);
+                string solutionDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+
+                Uri uri = new Uri(Path.Combine(solutionDirectory, $"DataLayer/{Filenames.QuizzesFilename}"));
+                string path = uri.AbsolutePath;
+
+
+                Quizzes = JsonService.Load<ObservableCollection<Quiz>>(path);
                 Categories = new ObservableCollection<string>(Quizzes.Select(q => q.Topic).Distinct());
                 CurrentQuizzes = Quizzes;
             }

@@ -1,0 +1,268 @@
+[
+  {
+    "Name": "TechMaster Challenge",
+    "Topic": "IT",
+    "Questions": [
+      {
+        "Text": "What does HTML stand for?",
+        "Options": ["Hyper Text Markup Language", "High Tech Machine Learning", "Hyper Transfer Markup Language", "Home Tool Markup Language"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "Which programming language is known as the 'mother of all languages'?",
+        "Options": ["Java", "C", "Python", "Assembly"],
+        "AnswerNumber": 2
+      },
+      {
+        "Text": "What is the purpose of CSS in web development?",
+        "Options": ["Client-side Scripting", "Computer Style Sheet", "Cascading Style Sheet", "Common Style Sheet"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "What does API stand for?",
+        "Options": ["Application Programming Interface", "Advanced Program Instructions", "Automated Processing Interface", "Application Process Integration"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "Which company developed the Python programming language?",
+        "Options": ["Microsoft", "Apple", "Google", "Guido van Rossum"],
+        "AnswerNumber": 4
+      },
+      {
+        "Text": "What is the main function of a firewall?",
+        "Options": ["Data Encryption", "Virus Protection", "Unauthorized Access Prevention", "Data Compression"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "What does SQL stand for?",
+        "Options": ["Structured Question Language", "Sequential Query Language", "Structured Query Language", "Software Quality Language"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "In programming, what is the purpose of the 'else' statement?",
+        "Options": ["Define a loop", "Handle errors", "Specify the alternative action", "Terminate the program"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "What is the function of a DNS server?",
+        "Options": ["Translate domain names to IP addresses", "Manage email communication", "Provide file storage", "Encrypt network traffic"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "Which of the following is a version control system?",
+        "Options": ["Git", "Java", "HTML", "Python"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "What is the purpose of a cookie in web development?",
+        "Options": ["Enhance website design", "Track user interactions", "Prevent security threats", "Encrypt user data"],
+        "AnswerNumber": 2
+      },
+      {
+        "Text": "Which programming paradigm does JavaScript support?",
+        "Options": ["Object-Oriented", "Procedural", "Functional", "All of the above"],
+        "AnswerNumber": 4
+      }
+    ]
+  },
+  {
+    "Name": "Capital Quiz",
+    "Topic": "Geography",
+    "Questions": [
+      {
+        "Text": "What is the capital of France?",
+        "Options": ["Rome", "Paris", "Berlin", "Madrid"],
+        "AnswerNumber": 2
+      },
+      {
+        "Text": "Which city is the capital of Japan?",
+        "Options": ["Bangkok", "Beijing", "Tokyo", "Seoul"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "What is the capital of Australia?",
+        "Options": ["Brisbane", "Canberra", "Sydney", "Melbourne"],
+        "AnswerNumber": 2
+      },
+      {
+        "Text": "In which city is the United Nations headquarters located?",
+        "Options": ["Washington, D.C.", "New York City", "Geneva", "Paris"],
+        "AnswerNumber": 2
+      },
+      {
+        "Text": "What is the capital of Brazil?",
+        "Options": ["São Paulo", "Salvador", "Rio de Janeiro", "Brasília"],
+        "AnswerNumber": 4
+      },
+      {
+        "Text": "Which city is the capital of Canada?",
+        "Options": ["Montreal", "Ottawa", "Vancouver", "Toronto"],
+        "AnswerNumber": 2
+      },
+      {
+        "Text": "What is the capital of South Africa?",
+        "Options": ["Johannesburg", "Pretoria", "Cape Town", "Durban"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "In which European city can you find the Acropolis?",
+        "Options": ["Rome", "Barcelona", "Athens", "Berlin"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "What is the capital of Ukraine?",
+        "Options": ["Bucharest", "Lviv", "Kiev", "Warsaw"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "Which city is the capital of Argentina?",
+        "Options": ["Rio de Janeiro", "Santiago", "Buenos Aires", "Lima"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "What is the capital of China?",
+        "Options": ["Beijing", "Hong Kong", "Shanghai", "Seoul"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "In which city is the Colosseum located?",
+        "Options": ["Rome", "Barcelona", "Paris", "Athens"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "What is the capital of Mexico?",
+        "Options": ["Madrid", "Lima", "Mexico City", "Buenos Aires"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "Which city is the capital of India?",
+        "Options": ["New Delhi", "Bangalore", "Kolkata", "Mumbai"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "What is the capital of Egypt?",
+        "Options": ["Alexandria", "Luxor", "Giza", "Cairo"],
+        "AnswerNumber": 4
+      }
+    ]
+  },
+  {
+    "Name": "Chronicles of Time",
+    "Topic": "History",
+    "Questions": [
+      {
+        "Text": "In which year did the Battle of Hastings take place?",
+        "Options": ["1120", "1204", "1066", "1348"],
+        "AnswerNumber": 3
+      },
+      {
+        "Text": "Who was the Egyptian queen known for her relationship with Mark Antony and Julius Caesar?",
+        "Options": ["Cleopatra", "Nefertiti", "Hatshepsut", "Ankhesenamun"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "Which ancient city was known for its Hanging Gardens, one of the Seven Wonders of the Ancient World?",
+        "Options": ["Babylon", "Athens", "Rome", "Alexandria"],
+        "AnswerNumber": 1
+      },
+      {
+        "Text": "What historical event is often considered the start of the Protestant Reformation?",
+        "Options": ["Council of Nicaea", "Edict of Milan", "Treaty of Westphalia", "Diet of Worms"],
+        "AnswerNumber": 4
+      },
+      {
+        "Text": "Who was the emperor of Japan during World War II?",
+        "Options": ["Emperor Taisho", "Emperor Hirohito", "Emperor Meiji", "Emperor Akihito"],
+        "AnswerNumber": 2
+      }
+    ]
+  }
+  ,
+  {
+  "Name": "Global Explorer Challenge",
+  "Topic": "Geography",
+  "Questions": [
+    {
+      "Text": "Which river is the longest in the world?",
+      "Options": ["Nile River", "Amazon River", "Yangtze River", "Mississippi River"],
+      "AnswerNumber": 1
+    },
+    {
+      "Text": "In which mountain range is Mount Everest located?",
+      "Options": ["Andes", "Himalayas", "Alps", "Rocky Mountains"],
+      "AnswerNumber": 2
+    },
+    {
+      "Text": "Which desert is the largest in the world?",
+      "Options": ["Gobi Desert", "Sahara Desert", "Antarctic Desert", "Arabian Desert"],
+      "AnswerNumber": 3
+    },
+    {
+      "Text": "What is the southernmost continent?",
+      "Options": ["Asia", "Africa", "Antarctica", "Australia"],
+      "AnswerNumber": 3
+    },
+    {
+      "Text": "Which ocean is the largest on Earth?",
+      "Options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
+      "AnswerNumber": 4
+    },
+    {
+      "Text": "Which country is known as the 'Land of the Rising Sun'?",
+      "Options": ["China", "Japan", "South Korea", "Vietnam"],
+      "AnswerNumber": 2
+    },
+    {
+      "Text": "Which African country is known as the 'Land of a Thousand Hills'?",
+      "Options": ["Kenya", "Rwanda", "Nigeria", "South Africa"],
+      "AnswerNumber": 2
+    },
+    {
+      "Text": "Which river runs through the Grand Canyon?",
+      "Options": ["Mississippi River", "Colorado River", "Amazon River", "Nile River"],
+      "AnswerNumber": 2
+    },
+    {
+      "Text": "Which island is the largest in the world?",
+      "Options": ["Greenland", "Borneo", "Madagascar", "Java"],
+      "AnswerNumber": 1
+    },
+    {
+      "Text": "What is the largest lake in Africa?",
+      "Options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+      "AnswerNumber": 1
+    }
+  ]
+},
+{
+  "Name": "Cosmic Odyssey Quiz",
+  "Topic": "Space",
+  "Questions": [
+    {
+      "Text": "What is the largest planet in our solar system?",
+      "Options": ["Neptune", "Saturn", "Mars", "Jupiter"],
+      "AnswerNumber": 4
+    },
+    {
+      "Text": "Which galaxy is the Milky Way closest to?",
+      "Options": ["Messier 87", "Andromeda", "Whirlpool", "Triangulum"],
+      "AnswerNumber": 2
+    },
+    {
+      "Text": "What is the Kuiper Belt?",
+      "Options": ["A belt of asteroids between Mars and Jupiter", "A zone of intense radiation around the Earth", "A cluster of black holes in the Milky Way", "A region of icy bodies beyond Neptune's orbit"],
+      "AnswerNumber": 4
+    },
+    {
+      "Text": "Who was the first human to travel into space?",
+      "Options": ["Neil Armstrong", "Buzz Aldrin", "Valentina Tereshkova", "Yuri Gagarin"],
+      "AnswerNumber": 4
+    },
+    {
+      "Text": "What is the name of the brightest star in the night sky?",
+      "Options": ["Sirius", "Alpha Centauri", "Betelgeuse", "Proxima Centauri"],
+      "AnswerNumber": 1
+    }
+  ]
+}
+]
